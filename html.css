@@ -1,0 +1,556 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.GAME-Mart {
+  color: white;
+  background-color: #1a2130;
+  padding-bottom: -10px;
+  display: flex;
+  justify-content: center;
+}
+#game {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.span {
+  color: #059212;
+}
+#pol {
+  color: #059212;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#klo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bob {
+  display: flex;
+  justify-content: end;
+  row-gap: 100px;
+  align-items: end;
+  display: flex;
+  gap: 10px;
+  margin-right: 70px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#op {
+  background: url("/slider_2.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.lapi {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  color: #0c0c0c;
+  padding-top: 10px;
+  background-color: #222831;
+  transition: background-color 0.3px;
+}
+.lapi ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  
+}
+
+.ul li a {
+  color: rgb(34, 131, 216);
+  text-decoration: none;
+  font-size: 20px;
+}
+.ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.a {
+  text-decoration: none;
+  display: inline-block;
+
+  margin-bottom: 10px;
+
+  position: relative;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: green;
+  color: green;
+}
+
+.a {
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.4s, color 0.3s;
+  background-color: transparent;
+}
+
+button {
+  display: flex;
+  justify-content: end;
+}
+.got {
+  color: #059212;
+
+  background-color: #222831;
+  font-size: 30px;
+}
+.lapi li a {
+  color: white;
+}
+
+.COAL {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  background-color: black;
+  opacity: 0.4;
+  color: rgb(245, 225, 222);
+}
+
+.BOT {
+  padding: 10px 20px;
+  margin: 5px;
+
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 19px;
+}
+
+.POP {
+  padding: 150px;
+  margin: 150px;
+}
+
+.BOT:hover {
+  color: #4caf50;
+  background-color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#op {
+  background-color: #222831;
+}
+p {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+#car {
+  color: #c5db3b;
+  font: 36px "lucky guy" cursiv;
+  display: flex;
+}
+
+#gone {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#gone .gone-content {
+  width: 50%;
+}
+#mm {
+  border: 4px solid #c5db3b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: black;
+}
+#dass {
+  display: flex;
+  justify-content: start;
+}
+.ff{
+  background-color: #f9f9f9;
+display: flex;
+justify-content: end;
+margin:30px;
+margin-left: 550px; 
+
+}
+.kkk{
+display: flex;
+
+margin-right: 250px;
+
+
+}
+.pop{
+
+
+margin-left: 80px;
+color: #c5db3b;
+}
+.lll{
+
+padding: 30px;
+border: 3px solid ;
+margin-left: 70px;
+}
+#war{
+
+margin-top: 60px;
+margin-right: 450px;
+border: 2px solid #c5db3b;
+}
+.you{
+
+display: flex;
+
+
+}
+.lomm{
+
+
+padding: 150px;
+padding-bottom: 60px;
+
+}
+i{
+
+font-size: 50px;
+
+
+
+}
+
+.container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding:30px;
+        }
+        form {
+            background: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        form input[type="text"], form textarea {
+        
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            font-size: 20px;
+            padding: 30px;
+        }
+        form textarea {
+            height: 150px;
+        }
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        
+        .lapi{
+position: fixed;
+width: 1550px;
+opacity: 0.3;
+        }
+        .lapi:hover{
+
+opacity: 1;
+
+
+        }
+        footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-section .social-media a:hover {
+    color: #4CAF50;
+}
+
+.footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+.header .mybtn1 {
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+       
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+  /* General Container and Form Adjustments */
+  .container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  form input[type="text"], 
+  form textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  form textarea {
+    height: 120px;
+  }
+
+  form input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  /* Header and Navigation Adjustments */
+  .GAME-Mart {
+    padding-bottom: 5px;
+  }
+
+  #game {
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .lapi {
+    font-size: 14px;
+    padding: 5px;
+    position: static;
+    width: auto;
+    opacity: 1; /* Ensure it's fully visible on mobile */
+  }
+
+  .lapi ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Layout Adjustments */
+  #bob {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  /* Footer Adjustments */
+  footer {
+    padding: 15px 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .footer-section {
+    min-width: 100%;
+    margin: 5px 0;
+  }
+
+  .footer-section h2 {
+    font-size: 18px;
+  }
+
+  .footer-section p {
+    font-size: 14px;
+  }
+
+  .footer-section ul li {
+    font-size: 14px;
+  }
+
+  .footer-section .social-media a {
+    font-size: 20px;
+  }
+
+  /* Button Adjustments */
+  .BOT {
+    font-size: 24px;
+    padding: 8px 16px;
+  }
+
+
+  .kkk{
+width: 100px;
+
+    margin-left: 300px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  /* Miscellaneous Adjustments */
+  .pop {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  #war {
+    margin-right: 0;
+  }
+
+  .you {
+    flex-direction: column;
+  }
+
+  .lomm {
+    padding: 80px 20px;
+  }
+
+  i {
+    font-size: 30px;
+  }
+  img{
+width: 90px;
+height: 90px;
+  }
+
+}
